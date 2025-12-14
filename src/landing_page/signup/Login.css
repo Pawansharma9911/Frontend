@@ -1,0 +1,84 @@
+/* Background overlay */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+  }
+  
+  /* Modal box */
+  .login-box {
+    width: 320px;
+    max-width: 90%;
+    padding: 32px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: #4b5563;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .primary {
+    color: #2563eb;
+  }
+  
+  /* Form fields */
+  .field p {
+    margin-bottom: 4px;
+    font-size: 14px;
+  }
+  
+  .field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.2s;
+  }
+  
+  .field input:focus {
+    border-color: #2563eb;
+  }
+  
+  /* Toggle text */
+  .toggle-text {
+    font-size: 14px;
+  }
+  
+  .link {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* Button */
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .submit-btn:hover {
+    background: #1e40af;
+  }
+  
