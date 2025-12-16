@@ -51,3 +51,25 @@ code {
   border: none;
 
 }
+.pricing-card {
+  padding: 80px;
+  text-align: center;
+}
+
+.pricing-img {
+  width: 110px;       /* perfect for desktop */
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.pricing-card h2 {
+  margin-bottom: 12px;
+}
+
+.pricing-card p {
+  line-height: 1.6;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+
