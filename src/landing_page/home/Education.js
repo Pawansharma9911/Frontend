@@ -1,11 +1,12 @@
 import React from 'react';
-
+// import education from "../../assets/education.svg";
+import { assets } from '../../assets/assets.js'
 function Education() {
     return ( 
         <div className='container'>
             <div className='row' style={{marginTop: "90px"}}>
                 <div className='col'>
-                   <img src='media/images/education.svg'/>
+                   <img src={assets.education} />
                 </div>
                 <div className='col pt-3'>
                     <h3 className='text-muted'>Free and open market education</h3>

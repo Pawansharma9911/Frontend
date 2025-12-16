@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAppContext } from "./Context/AppContext";
+import Finexa from "../assets/finexa3.png";
 
 function Navbar() {
   const {setShowLogin,user,logout,isOwner,axios,setIsOwner} = useAppContext()
@@ -16,7 +17,7 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg border-bottom" style={{backgroundColor: "#FFF"}}>
         <div class="container p-2">
           <Link class="navbar-brand" to="/">
-            <img src="media/images/finexa3.png" alt="Logo" style={{width: "15%"}}/>
+            <img src={Finexa} alt="Logo" style={{width: "15%"}}/>
            
 
           </Link>

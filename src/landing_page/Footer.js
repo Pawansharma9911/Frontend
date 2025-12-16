@@ -1,11 +1,12 @@
 import React from 'react';
+import Finexa from "../assets/finexa3.png";
 
 function Footer() {
     return (  
         <div className='container border-top '>
             <div className='row mt-5'>
                 <div className='col'>
-                    <img src='media/images/finexa3.png' style={{width: "35%"}}/>
+                    <img src={Finexa} style={{width: "35%"}}/>
                     <p>&copy; 2010 - 2025, Zerodha Broking Ltd.
 All rights reserved.</p>
                 </div>

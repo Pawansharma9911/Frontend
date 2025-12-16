@@ -1,4 +1,5 @@
 import React from 'react';
+import ecosystem from "../../assets/ecosystem.png";
 
 function Stats() {
     return ( 
@@ -15,7 +16,7 @@ function Stats() {
             </div>
 
             <div className='col-6 mt-5 p-5'>
-                <img src='media/images/ecosystem.png' className='p-25' style={{width: "90%"}}/>
+                <img src={ecosystem} className='p-25' style={{width: "90%"}}/>
                 <a href='' style={{textDecoration: "none"}}>Explore our products <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href='' style={{textDecoration: "none"}}>Try Kite <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 

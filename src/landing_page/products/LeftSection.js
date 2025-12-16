@@ -1,4 +1,5 @@
 import React from 'react';
+import { assets } from '../../assets/assets.js'
 
 function LeftSection({
     imageURL,
@@ -25,8 +26,8 @@ function LeftSection({
                     <a href={learnMore} style={{marginLeft:"65px", textDecoration:"none"} }>Learn More →</a>
                 </div>
                 <div className='mt-3'>     
-                   <a href={googlePlay}> <img src='media/images/googlePlayBadge.svg'/></a>
-                   <a href={appStore} style={{marginLeft:"25px"}}> <img src='media/images/appstoreBadge.svg'/></a>
+                   <a href={googlePlay}> <img src={assets.googlePlayBadge}/></a>
+                   <a href={appStore} style={{marginLeft:"25px"}}> <img src={assets.appstoreBadge}/></a>
                </div>
 
                 

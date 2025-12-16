@@ -1,11 +1,13 @@
 import React from 'react';
+import { assets } from '../../assets/assets.js'
+import pressLogos from "../../assets/pressLogos.png";
 
 function Awards() {
     return ( 
         <div className='container mt-5'>
             <div className='row'>
                 <div className='col-6 p-5'>
-                    <img src='media/images/largestBroker.svg'/>
+                    <img src={assets.largestBroker}/>
 
                 </div>
                 <div className='col-6 p-7 mt-5'>
@@ -41,7 +43,7 @@ function Awards() {
                         </div>
 
                     </div>
-                    <img src='media/images/pressLogos.png' style={{width:"80%"}}/>
+                    <img src={pressLogos} style={{width:"80%"}}/>
                     
 
                 </div>

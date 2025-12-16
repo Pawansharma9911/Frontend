@@ -1,4 +1,5 @@
 import React from "react";
+import developer from "../../assets/developer.png";
 
 function Team() {
   return (
@@ -7,7 +8,7 @@ function Team() {
       <div className="row mt-5">
         <div className="col-6 p-5 text-center ">
           <img
-            src="/media/images/developer.png"
+            src={developer}
             style={{ borderRadius: "100%", width: "60%", marginTop: "-60px", marginLeft: "-40px"  }}
           />
           <h5 className="text-muted mt-4">Pawan Sharma</h5>
