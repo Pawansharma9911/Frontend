@@ -4,7 +4,7 @@ import { useAppContext } from "./Context/AppContext";
 import Finexa from "../assets/finexa3.png";
 
 function Navbar() {
-  const {setShowLogin,user,logout,isOwner,axios,setIsOwner} = useAppContext()
+  const {setShowLogin,user,logout,axios} = useAppContext()
   const navigate = useNavigate()
   const handleLogin = (e) => {
     e.preventDefault();
